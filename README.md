@@ -20,6 +20,11 @@ The paths for these directories are configured in `config.py`. Ensure that this 
 
 ## Usage
 After setting up the directory structure, you can proceed with placing your original images in the `DATA/original_images` directory and running your model training and inference scripts as per your project requirements.
+### Here are the key steps:
+1. Image Segmentation: go to `segmentation.ipynb` and run the codes to get segmentation masks
+2. Perspective Projection: go to `perspective_projection.ipynb` and run the codes to infill the segmented parts with content from other views.
+3. Image Regeneration: go to `regeneration.ipynb` and run the codes to inpaint the images, using a deep learning model
+4. Finalize: go to `finalizing_images.ipynb` and run the codes to upsample the inpainted holes and put them back to the original images.
 
 ## Contribution
 Contributors are welcome to improve the project by submitting pull requests or opening issues for bugs and feature requests.
